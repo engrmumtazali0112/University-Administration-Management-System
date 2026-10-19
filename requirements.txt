@@ -9,4 +9,4 @@ gunicorn
 cloudinary>=1.40
 django-cloudinary-storage>=0.3.0
 python-dotenv>=1.0
-django-select2>=8.1django-select2>=8.1
+django-select2>=8.1
