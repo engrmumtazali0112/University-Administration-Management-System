@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "hostel_management_system/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "50mb" }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "hostel_management_system/wsgi.py" }
+  ]
+}

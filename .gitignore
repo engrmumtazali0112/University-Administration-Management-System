@@ -1,12 +1,10 @@
-
-
-# Ignore AppData
-AppData/
-*.log
-*.
-*.cache
+.env
+db.sqlite3
+.idea/
+__pycache__/
+*.pyc
 node_modules/
-.env"# PowerPoint temporary files" 
-"~$*.pptx" 
-"~$*.docx" 
-"~$*.xlsx" 
+venv/
+.venv/
+.vercel/
+media/
